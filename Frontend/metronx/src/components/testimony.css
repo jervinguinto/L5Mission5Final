@@ -1,0 +1,87 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Roboto;
+  }
+  
+  .testimony {
+    height: 60vh;
+    /* border: solid blue 2px; */
+    background-color:#eaeaea;
+    padding-top: 40px;
+  }
+  
+  .testimony > h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  .slider{
+   width:50%;
+   margin: auto;
+  }
+  
+  /* .soloTestimony{
+  width: 100%;
+  margin:auto;
+  height: 360px;
+  background-color: pink;
+  } */
+  
+  /* .testimonyImg{
+    border-radius: 20px;
+  } */
+  
+  
+  .soloTestimony {
+    background-color: white;
+    border-radius: 30px;
+  
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-around; */
+    /* height: 370px;
+    align-items: center; */
+    /* width: 60%;
+    margin: auto; */
+  padding-left: 120px;
+  height: 350px;
+  }
+  .caption {
+    width: 90%;
+    /* border: solid blue 2px; */
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 30px;
+    height:130px
+  }
+  
+  .imgNameLoc {
+    /* border: solid blue 2px; */
+    display: flex;
+    flex-direction: row;
+  
+    /* border:solid black 2px; */
+    width: 400px;
+    margin: 30px 0 50px 180px;
+  
+  
+  }
+  .myImg {
+    width: 140px;
+  }
+  
+  .reviewName {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .nameLoc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    margin-left: 30px;
+  }
+  

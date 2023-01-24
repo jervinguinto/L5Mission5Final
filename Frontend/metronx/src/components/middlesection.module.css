@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .middleSection {
+    height: 40vh;
+  
+    padding-top: 80px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 30px;
+  }
+  
+  .imgHouse {
+    margin-top: 40px;
+  }
+  

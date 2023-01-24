@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Roboto;
+  }
+  .recentlyListed {
+    height: 70vh;
+    /* border: solid orange 2px; */
+  }
+  
+  .recentlyListed > h1 {
+    text-align: center;
+    margin: 70px 0 40px 0;
+    font-size: 40px;
+  }
+  .slider2{
+  width:60%;
+  height: 50%;
+  /* border: solid red 2px; */
+  margin: auto;
+  }
+  .propertyList {
+    margin: 0 0px 50px 0px;
+    padding: 0 280px 0 280px;
+  }
+  
+  .title,
+  .address,
+  .bed {
+    margin-bottom: 10px;
+  }
+  .bed {
+    margin: 0 15px 20px 0;
+  }
+  
+  .bed,
+  .bath {
+    padding: 7px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 13px;
+    border-width: 1px;
+  }
+  
+  .amenities {
+    font-size: 12px;
+  }
+  
+  .view {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .view > img {
+    width: 250px;
+  }
+  

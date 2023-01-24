@@ -1,0 +1,28 @@
+version: "3.8"
+services:
+  mongodb:
+    image : mongo:latest
+    container_name: mongodbl5m5
+    environment:
+    - PUID=1000
+    - PGID=1000
+    ports:
+    - 27017:27017
+    restart: unless-stopped
+
+
+  nodejs-server:
+    build:
+      context: ./Backend
+    ports:
+      - "4000:4000"
+    container_name: backendl5m5
+  
+  react-ui:
+    build:
+      context: ./Frontend
+    ports:
+      - "3000:3000"
+    container_name: frontendl5m5
+    stdin_open: true
+    
